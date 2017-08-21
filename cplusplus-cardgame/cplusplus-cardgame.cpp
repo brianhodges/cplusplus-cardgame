@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
 	}
 
 	//Display Player 1 Hand
-	cout << endl << "Player 1 Hand:" << endl;
+	cout << endl << endl << "Player 1 Hand:" << endl;
 	cout << string(14, '-') << endl;
 	for (vector<int>::size_type i = 0; i != player1.hand.size(); i++) {
 		cout << player1.hand[i].rank << " Of " << player1.hand[i].suit << endl;
